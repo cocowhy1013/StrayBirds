@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ISSTA2017: Faster Mutation Analysis via Equivalence Modulo States
+title: ISSTA2017(Faster Mutation Analysis via Equivalence Modulo States)
 category: 阅读
 comments: true
 ---
