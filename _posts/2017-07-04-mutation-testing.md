@@ -20,8 +20,8 @@ mutation testing是一种通过对程序(可看做golden version)中人为插入
 ### 1. 变异操作
 变异操作(mutation operator)是指在原始程序中通过一些变换，例如改变语法操作等来对原始程序做一些修改，已有两大类的变异操作traditional operator和class operator，也可称为method-level和class-level operators这里在下面列出常用工具[MuJava](http://delivery.acm.org/10.1145/1140000/1134425/p827-ma.pdf?ip=114.212.81.253&id=1134425&acc=ACTIVE%20SERVICE&key=BF85BBA5741FDC6E%2E180A41DAF8736F97%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=956104855&CFTOKEN=90259377&__acm__=1499163920_8a2c80a29e178a0f4fe3841c2fd7e648)中支持的两大类operator的列表：
 
-![traditionOp](2017-07-04/traditionOp.png "method-level operators supported in MuJava")
-![classOp](2017-07-04/classOp.png "class-level operators supported in MuJava")
+![traditionOp](http://oskh0ynw2.bkt.clouddn.com/traditionOp.png "method-level operators supported in MuJava")
+![classOp](http://oskh0ynw2.bkt.clouddn.com/classOp.png "class-level operators supported in MuJava")
 以最简单的AOR来举例，原始程序中包含一行简单的a=b+c语句，AOR的变异操作会对其中的算术运算符进行替换，将原始“a=b+c”替换成“a=b-c”,这是一个简单便于理解的例子，实际中其实method-level的变化大多也较为简单。针对不同领域，有研究工作设计了不同的operator，以及针对不同operator的横向比较和研究。
 
 ### 2. 变异操作次数
