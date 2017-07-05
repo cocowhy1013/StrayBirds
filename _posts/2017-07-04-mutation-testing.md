@@ -22,6 +22,7 @@ mutation testing是一种通过对程序(可看做golden version)中人为插入
 
 ![traditionOp](http://oskh0ynw2.bkt.clouddn.com/traditionOp.png "method-level operators supported in MuJava")
 ![classOp](http://oskh0ynw2.bkt.clouddn.com/classOp.png "class-level operators supported in MuJava")
+
 以最简单的AOR来举例，原始程序中包含一行简单的a=b+c语句，AOR的变异操作会对其中的算术运算符进行替换，将原始“a=b+c”替换成“a=b-c”,这是一个简单便于理解的例子，实际中其实method-level的变化大多也较为简单。针对不同领域，有研究工作设计了不同的operator，以及针对不同operator的横向比较和研究。
 
 ### 2. 变异操作次数
